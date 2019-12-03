@@ -1,69 +1,86 @@
 <!doctype html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <title>Chitkaraflix</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-      <link rel="stylesheet" href="bootstrap.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>Chitkaraflix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-      <left><h4><strong><a href="index.html"><font color="red">CHITFLIX</font></a></strong></h4></left>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
 
-    <body>
+<left>
+  <h4><strong><a href="index.html">
+        <font color="red">CHITFLIX</font>
+      </a></strong></h4>
+</left>
 
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="search.html">Search</a></li>
-  <li><a href="watch.html">Watch Now</a></li>
-  <li><a href="must.html">Top picks</a></li>
-  <li><a href="news.html">News</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
+<body>
 
-                    <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="search.html">Search</a></li>
+    <li><a href="watch.html">Watch Now</a></li>
+    <li><a href="must.html">Top picks</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html">About Us</a></li>
+  </ul>
 
-        <script src="main.js"></script>
+  <div class="w3-content w3-section" style="max-width:850px">
+    <a href="https://www.imdb.com/title/tt2938956/"><img class="mySlides w3-animate-fading"
+        src="https://images.wallpaperscraft.com/image/the_transporter_refueled_frenk_martin_ed_skrejn_103636_1920x1080.jpg"
+        style="width:100%"></a>
+    <a href="https://www.imdb.com/title/tt0068646/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading"
+        src="https://images.wallpaperscraft.com/image/godfather_marlon_brando_don_vito_corleone_black_rose_740_1920x1080.jpg"
+        style="width:100%"></a>
+    <a href="https://www.imdb.com/title/tt2820852/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading"
+        src="https://images.wallpaperscraft.com/image/furious_7_2015_paul_walker_brian_oconner_101510_1920x1080.jpg"
+        style="width:100%"></a>
+    <a href="https://www.imdb.com/title/tt1596363/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading"
+        src="https://images.wallpaperscraft.com/image/the_big_short_inscription_film_107070_1920x1080.jpg"
+        style="width:100%"></a>
+    <a href="https://www.imdb.com/title/tt0120338/?ref_=nv_sr_srsg_3"><img class="mySlides w3-animate-fading"
+        src="https://images.wallpaperscraft.com/image/titanic_love_famous_pose_lovers_romance_4080_1920x1080.jpg"
+        style="width:100%"></a>
+    <a href="https://www.imdb.com/title/tt2096673/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading"
+        src="https://images.wallpaperscraft.com/image/inside_out_2015_pixar_disney_world_102843_1920x1080.jpg"
+        style="width:100%"></a>
+    <a href="https://www.imdb.com/title/tt0078788/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading"
+        src="https://images.wallpaperscraft.com/image/apocalypse_now_1979_martin_sheen_marlon_brando_frederic_forrest_98227_1920x1080.jpg"
+        style="width:100%"></a>
+  </div>
 
-<div class="w3-content w3-section" style="max-width:850px">
-  <a href="https://www.imdb.com/title/tt2938956/"><img class="mySlides w3-animate-fading" src="https://images.wallpaperscraft.com/image/the_transporter_refueled_frenk_martin_ed_skrejn_103636_1920x1080.jpg"style="width:100%"></a>
-  <a href="https://www.imdb.com/title/tt0068646/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading" src="https://images.wallpaperscraft.com/image/godfather_marlon_brando_don_vito_corleone_black_rose_740_1920x1080.jpg" style="width:100%"></a>
-  <a href="https://www.imdb.com/title/tt2820852/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading" src="https://images.wallpaperscraft.com/image/furious_7_2015_paul_walker_brian_oconner_101510_1920x1080.jpg" style="width:100%"></a>
-  <a href="https://www.imdb.com/title/tt1596363/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading" src="https://images.wallpaperscraft.com/image/the_big_short_inscription_film_107070_1920x1080.jpg" style="width:100%"></a>
-  <a href="https://www.imdb.com/title/tt0120338/?ref_=nv_sr_srsg_3"><img class="mySlides w3-animate-fading" src="https://images.wallpaperscraft.com/image/titanic_love_famous_pose_lovers_romance_4080_1920x1080.jpg" style="width:100%"></a>
-  <a href="https://www.imdb.com/title/tt2096673/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading" src="https://images.wallpaperscraft.com/image/inside_out_2015_pixar_disney_world_102843_1920x1080.jpg" style="width:100%"></a>
-  <a href="https://www.imdb.com/title/tt0078788/?ref_=nv_sr_srsg_0"><img class="mySlides w3-animate-fading" src="https://images.wallpaperscraft.com/image/apocalypse_now_1979_martin_sheen_marlon_brando_frederic_forrest_98227_1920x1080.jpg" style="width:100%"></a>
-</div>
+  <div align="center" class="text-dark">
+    <footer class="pb-2">
+      For more details<br>
+      Contact us: <a href="tel:+919646734604">+91 96467-34604</a>, <a href="+919815327689">+91 98153-27689</a> ,<a
+        href="+917814181409">+91 78141-81409</a><br><a
+        href="mailto:jaspreet171356.cse@chitkara.edu.in">jaspreet171356.cse@chitkara.edu.in</a>
+    </footer>
+  </div>
+  <script>
+    var myIndex = 0;
+    carousel();
 
-<script>
-var myIndex = 0;
-carousel();
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 9000);
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 9000);
-}
-</script>
-<div align="center" class="text-dark">
-<footer class="center black padding-12" style="background:white;color:black;">
-For more details<br>
-Contact us: <a href="tel:+919646734604">+91 96467-34604</a>, <a href="+919815327689">+91 98153-27689</a> ,<a href="+917814181409">+91 78141-81409</a><br><a href="jaspreet171356.cse@chitkara.edu.in">jaspreet171356.cse@chitkara.edu.in</a>
-</footer>
-</div>
+  <script src="./js/main.js"></script>
+</body>
 
-
-    </body>
-  </html>
+</html>

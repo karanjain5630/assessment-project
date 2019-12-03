@@ -1,3 +1,7 @@
+body{
+  background-color: #171717;
+}
+
 #movies img, #movie img{
   width:60%;
 }
@@ -13,7 +17,7 @@
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: none;  /*Remove Bullets from ul*/
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -37,6 +41,9 @@ li a {
 
 li a:hover {
   background-color: #111;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 .active {
@@ -45,3 +52,17 @@ li a:hover {
 
 .padding-16{padding-top:16px!important;padding-bottom:16px!important}.padding-24{padding-top:24px!important;padding-bottom:24px!important}
 .padding-32{padding-top:32px!important;padding-bottom:32px!important}.padding-48{padding-top:48px!important;padding-bottom:48px!important}
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  background: #333;
+  color: #fff;
+  width: 100vw;
+}
+
+footer a,footer a:hover{
+  text-decoration: none;
+  color: #ffc107 ;
+}
